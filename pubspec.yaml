@@ -1,0 +1,35 @@
+name: fate_test_app
+description: "A new Flutter project."
+publish_to: 'none' # This prevents accidental publishing to pub.dev.
+
+version: 1.0.0+1
+
+environment:
+  sdk: "^3.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.3.6
+  json_annotation: ^4.7.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  json_serializable: ^6.5.0
+  build_runner: ^2.4.2
+
+flutter:
+  
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/data/
+  # Additional configurations for custom fonts if you use any.
+
+# Ensure there are no additional spaces or tabs that could affect YAML parsing.
